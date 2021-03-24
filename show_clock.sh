@@ -8,5 +8,7 @@ shclock(){
   echo -en  "\r$jam"; sleep 1;
   done
 }
-
+#-n     do not output the trailing newline
+#-e     enable interpretation of backslash escapes
+#\r     carriage return
 shclock
