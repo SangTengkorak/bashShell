@@ -13,4 +13,6 @@
  13 
  14 if [[ $s_string != "" &&  $r_string != "" ]]; then
  15         sed -i "s/$s_string/$r_string/" $filename
+    #       sed -i "s/$s_string/$r_string/gi" $filename
+    #       g and i for global and insensitive characters.
  16 fi
