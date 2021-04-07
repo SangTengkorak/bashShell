@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+<node name="node_IP12"
+  tags="centos, linux, server"
+  osFamily="unix"
+  username="sangtengkorak"
+  hostname="centos12"
+  ssh-key-storage-path="keys/sangtengkorak"
+  sudo-command-enabled="true"
+  sudo-password-storage-path="keys/sudo"
+  file-copier="ssh-copier"
+  ssh-authentication="privateKey"
+  ssh-options="-o ConnectTimeout=5000"/>
+ />
+<node name="node_IP13"
+  tags="centos, linux, server"
+  osFamily="unix"
+  username="sangtengkorak"
+  hostname="centos13"
+  ssh-key-storage-path="keys/sangtengkorak"
+  sudo-command-enabled="true"
+  sudo-password-storage-path="keys/sudo"
+  file-copier="ssh-copier"
+  ssh-authentication="privateKey"
+  ssh-options="-o ConnectTimeout=5000"/>
+ />
+</project>
